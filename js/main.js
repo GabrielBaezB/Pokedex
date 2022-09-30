@@ -68,19 +68,26 @@ const getPokemon = async (id, modal) =>{
 
 /*pintar card pokemon*/
 const colors = {
-    fire: '#FFA05D',
-	grass: '#8FD594',
-	electric: '#FFE43B',
-	water: '#7E97C0',
-	ground: '#CAAC4D',
-	rock: '#90642D',
-	poison: '#9D5B9B',
-	bug: '#EAFD71',
+    fire: '#F08030',
+	grass: '#78C850',
+	electric: '#F8D030',
+	water: '#188BE0',
+	ground: '#F8F878',
+	rock: '#B8A038',
+	poison: '#A040A0',
+	bug: '#A8B820',
 	dragon: '#97b3e6',
-	psychic: '#FF96B5',
-	flying: '#CDCDCD',
-	fighting: '#FF5D5D',
-	normal: '#FFFFFF'
+	psychic: '#F85888',
+	flying: '#A890F0',
+	fighting: '#C03028',
+	normal: '#A8A878',
+    ghost: '#705898',
+    steel: '#696969',
+    ice: '#98D8D8',
+    dragon: '#7038F8',
+    dark: '#705848',
+    fairy:'#EE99AC',
+    shadow:'',
 }
 
 const main_types = Object.keys(colors)
